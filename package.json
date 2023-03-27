@@ -1,0 +1,25 @@
+{
+  "name": "archive-boston-test",
+  "version": "1.0.0",
+  "description": "An upgrade for static archive articles",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://photocurio@github.com/BostonGlobe/archive-boston-com.git"
+  },
+  "author": "Peter Mumford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BostonGlobe/archive-boston-com/issues"
+  },
+  "homepage": "https://github.com/BostonGlobe/archive-boston-com#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}
